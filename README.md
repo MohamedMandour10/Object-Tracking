@@ -1,11 +1,11 @@
 # Real-Time Object Tracker
 
-A simple, interactive Python tool for tracking objects in real time using your webcam. Draw a box around anything in the first frame, and the app will follow it as it moves, live.
+A simple, interactive Python tool for tracking objects in real time using your webcam. Draw a box around anything in the first frame, and the app will follow it as it moves in real-time.
 
 ## Features
 - **Easy Object Selection:** Click and drag to select what you want to track.
 - **Live Tracking:** See the tracker follow your object in real time.
-- **Multiple Tracking Algorithms:** Choose from CSRT, KCF, BOOSTING, or MOSSE (all built into OpenCV).
+- **Multiple Tracking Algorithms:** Choose from CSRT, KCF, BOOSTING, or MOSSE.
 - **Performance Display:** See FPS and tracking status right on the video.
 - **User Feedback:** If you make a mistake (like drawing outside the frame), you’ll see a helpful message on the screen.
 - **Keyboard Controls:** Reset, quit, or save a frame with a single key.
@@ -38,7 +38,7 @@ python main.py
 
 ## Controls
 - **During selection:**
-  - Click and drag to draw box
+  - Click and drag to draw a box
   - `SPACE`: Confirm selection
   - `r`: Reset selection
   - `ESC`: Cancel
